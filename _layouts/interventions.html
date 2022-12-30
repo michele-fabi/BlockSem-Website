@@ -1,0 +1,16 @@
+<!-- _layouts/interventions.html -->
+
+<div class="interventions-page">
+  {% for intervention in site.interventions %}
+    <div class="intervention">
+      <h3 class="intervention-title">{{ intervention.title }}</h3>
+      <div class="intervention-abstract">{{ intervention.abstract }}</div>
+      {% if intervention.slides %}
+        <a href="{{ intervention.slides }}" class="intervention-link">Slides</a>
+      {% endif %}
+      {% if intervention.paper %}
+        <a href="{{ intervention.paper }}" class="intervention-link">Paper</a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

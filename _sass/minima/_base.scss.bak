@@ -280,3 +280,9 @@ table {
   }
 }
 
+.circular-image {
+  border-radius: 50%; /* make the corners rounded */
+  width: 200px; /* set the width of the image */
+  height: 200px; /* set the height of the image */
+  object-fit: cover; /* scale the image to fit within the border */
+}

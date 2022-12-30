@@ -137,7 +137,3 @@ figure figcaption {
 .justified {
   text-align: justify;
 }
-
-p {
-  text-align: justify;
-}
