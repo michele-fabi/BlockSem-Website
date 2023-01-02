@@ -141,3 +141,9 @@ figure figcaption {
 p {
   text-align: justify;
 }
+
+@media (max-width: 600px) {
+  .image-container img {
+    display: none;
+  }
+}

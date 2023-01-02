@@ -44,7 +44,9 @@ The website (in French) of the previous edition of BlockSem can be found <a href
   </figure>
 </div>
 
+
 <h2> Collaborating Institutions </h2>
+
 
 
 <div class="sponsor-container">

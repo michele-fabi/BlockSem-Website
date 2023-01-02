@@ -5,7 +5,8 @@ permalink: /about/
 ---
 
 
-The aim of the BlockSem seminar is to bring together academic and private researchers around the broad spectrum of topics related to blockchain technology: The design of distributed ledger protocols, decentralized finance, the digitalization of money, markets, and organizations.
+The aim of the BlockSem seminar is to bring together academic and private researchers around the broad spectrum of topics related to blockchain technology: The design of distributed ledger technologies, decentralized finance, the digitalization of money, markets, and organizations.
+
 
 The seminar covers these various topics through a multidisciplinary approach, hosting presenters mainly from computer science and economics/finance.
 
@@ -43,10 +44,13 @@ The website (in French) of the previous edition of BlockSem can be found <a href
   </figure>
 </div>
 
-<h2> Collaborating Institutions </h2>
+
+
+
 
 
 <div class="sponsor-container">
+<h2> Collaborating Institutions </h2>
   <img src="{{ '/assets/images/Blockchain_chair.png' | relative_url }}" alt="Logo 1">
   <img src="{{ '/assets/images/CEA.png' | relative_url }}" alt="Logo 2">
   <img src="{{ '/assets/images/CNRS.png' | relative_url }}" alt="Logo 3">
