@@ -29,11 +29,10 @@ permalink: /events/
 			  <a href="{{ intervention.video }}" class="intervention-link">[Video]</a>
 			{% endif %}
 		  </h2>
-
 		</div>
       {% if intervention.presenter %}
 		<div class="intervention-presenter presenter-info">
-		  <img src="{{ intervention.presenter.image }}" alt="{{ intervention.presenter.name }}" class="circular-image">
+		  <img src="{{ site.baseurl }}{{ intervention.presenter.image }}" alt="{{ intervention.presenter.name }}" class="circular-image">
 		  <div class="presenter-info-container">
 			Presenter: 
 			<a href="{{ intervention.presenter.url }}">{{ intervention.presenter.name }}</a>

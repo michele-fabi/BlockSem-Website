@@ -32,7 +32,7 @@ permalink: /events/
 		</div>
       {% if intervention.presenter %}
 		<div class="intervention-presenter presenter-info">
-		  <img src="{{ intervention.presenter.image }}" alt="{{ intervention.presenter.name }}" class="circular-image">
+		  <img src="{{ intervention.presenter.image  | relative_url }}" alt="{{ intervention.presenter.name }}" class="circular-image">
 		  <div class="presenter-info-container">
 			Presenter: 
 			<a href="{{ intervention.presenter.url }}">{{ intervention.presenter.name }}</a>
