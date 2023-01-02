@@ -5,7 +5,7 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Interdisciplinary seminar on blockchain technologies.
 
-baseurl: "/BlockSem-Website"
+baseurl: "/"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
