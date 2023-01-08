@@ -107,6 +107,10 @@ figure figcaption {
   text-align: justify;
 }
 
+.image-container figcaption {
+  margin-right: 5px;
+  margin-left: 5px;
+}
 
 .social-media-list {
   list-style: none;
@@ -185,10 +189,18 @@ p {
 }
 
 @media (max-width: 600px) {
-  .image-container img {
-    display: none;
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-}
+
+  .image-box {
+    width: 100%;
+  }
+  }
+
 
 .bigger-text {
   font-size: 1.25em;
