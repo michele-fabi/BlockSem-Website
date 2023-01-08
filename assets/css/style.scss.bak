@@ -13,10 +13,20 @@
   object-fit: cover; /* scale the image to fit within the border */
 }
 
-.image-container {
+.image-container figure {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
+
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .image-container figure img {
 	 margin: 10pt 40pt;
@@ -26,19 +36,26 @@ figure figcaption {
   text-align: center;
 }
 
+
 .sponsor-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
+.sponsor-container-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.sponsor-container img {
-    width: 30%;
-  margin: 10px;
+.sponsor-container-block img {
+  width: 50%;
   max-width: 200px;
+  margin: 10px;
 }
+
 
 
 .header-container {
@@ -123,6 +140,16 @@ figure figcaption {
   float: right;
 }
 
+@media screen and (max-width: 600px) {
+  .footer-col {
+    width: 100%; /* Take up the full width on small screens */
+    margin-right: 0; /* Remove the margin */
+  }
+  .footer-col.clearfix {
+    width: 100%; /* Take up the full width on small screens */
+    margin-left: 0; /* Remove the margin */
+  }
+}
 
 .clearfix:before,
 .clearfix:after {

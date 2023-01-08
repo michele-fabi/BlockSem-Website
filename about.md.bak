@@ -21,39 +21,56 @@ The website (in French) of the previous edition of BlockSem can be found <a href
  <h2 style="margin: auto auto 20px auto;"> Organizers </h2>
  
  <div class="image-container">
-  <figure>
-    <img src="{{ '/assets/images/yackolley.jpg' | relative_url }}" alt="image" class="circular-image">
-    <figcaption>
-	<strong><a href="https://www.u-paris2.fr/fr/universite/enseignants-chercheurs/m-yackolley-amoussou-guenou">Yackolley Amoussou-Guenou</a></strong> 
-	  <br>
-	Panthéon-Assas université</figcaption>
-  </figure>
-  <figure>
-   <img src="{{ '/assets/images/michele.jpg' | relative_url }}" alt="image" class="circular-image">
-   <figcaption>
-	<strong><a href="https://michelefabi.com/">Michele Fabi</a></strong> 
-	  <br>
-	École Polytechnique, CREST, IP Paris</figcaption> 
- </figure>
-  <figure>
-   <img src="{{ '/assets/images/natkamon.jpg' | relative_url }}" alt="image" class="circular-image">
-    <figcaption><strong><a href="https://www.linkedin.com/in/natkamon-tovanich-00a1a5aa/">Natkamon Tovanich</a></strong> 
-	  <br>
-	École Polytechnique, CREST, IP Paris
-	</figcaption>
-  </figure>
+  <div class="image-box">
+    <figure>
+      <img src="{{ '/assets/images/yackolley.jpg' | relative_url }}" alt="image" class="circular-image">
+      <figcaption>
+        <strong><a href="https://www.u-paris2.fr/fr/universite/enseignants-chercheurs/m-yackolley-amoussou-guenou">Yackolley Amoussou-Guenou</a></strong>
+        <br>
+        Panthéon-Assas université
+      </figcaption>
+    </figure>
+  </div>
+  <div class="image-box">
+    <figure>
+      <img src="{{ '/assets/images/michele.jpg' | relative_url }}" alt="image" class="circular-image">
+      <figcaption>
+        <strong><a href="https://michelefabi.com/">Michele Fabi</a></strong>
+        <br>
+        École Polytechnique, CREST, IP Paris
+      </figcaption>
+    </figure>
+  </div>
+  <div class="image-box">
+    <figure>
+      <img src="{{ '/assets/images/natkamon.jpg' | relative_url }}" alt="image" class="circular-image">
+      <figcaption>
+        <strong><a href="https://www.linkedin.com/in/natkamon-tovanich-00a1a5aa/">Natkamon Tovanich</a></strong>
+        <br>
+        École Polytechnique, CREST, IP Paris
+      </figcaption>
+    </figure>
+  </div>
 </div>
 
 
-<h2> Collaborating Institutions </h2>
+
+<h2 style="margin: auto auto 20px auto;"> Collaborating Institutions </h2>
 
 
 
 <div class="sponsor-container">
+
+<div class="sponsor-container-block-1">
   <img src="{{ '/assets/images/Blockchain_chair.png' | relative_url }}" alt="Blockchain Chair">
   <img src="{{ '/assets/images/CEA.png' | relative_url }}" alt="CEA">
-  <img src="{{ '/assets/images/CNRS.png' | relative_url }}" alt="CNRS">
+</div>  
+<div class="sponsor-container-block-2">
+  <img src="{{ '/assets/images/CNRS.png' | relative_url }}" alt="CNRS">  
   <img src="{{ '/assets/images/Dauphine.png' | relative_url }}" alt="Paris Dauphine">
+</div>  
+<div class="sponsor-container-block-3">
   <img src="{{ '/assets/images/paris-2.png' | relative_url }}" alt="Paris 2">
   <img src="{{ '/assets/images/liverpool.png' | relative_url }}" alt="University of Liverpool">
+  </div>  
 </div>
