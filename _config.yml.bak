@@ -1,9 +1,13 @@
 title: BlockSem
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Michele Fabi 
+  email: michele.fabi@ensa.fr
 description: > # this means to ignore newlines until "show_excerpts:"
   Interdisciplinary seminar on blockchain technologies.
+
+baseurl: "/"
+
+home: next-event.html
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -23,13 +27,12 @@ minima:
 # - about.md
 
 header_pages:
-  - news.md
+  - next-event.md
   - program.md
   - past_events.md
   - subscribe.md
   - about.md
   - contacts.md
-
 
 # Build settings
 theme: minima
@@ -42,6 +45,8 @@ plugins:
 collections:
     interventions:
         output: true
+    home-interventions:
+        output: true        
         
 
 exclude:

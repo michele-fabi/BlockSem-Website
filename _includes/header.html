@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-	<div class="logo-container">
+	<div class="logo-container">	
 	 <img src="{{ '/assets/images/Logo.png' | relative_url }}" alt="Logo"  width=100% height=auto class="logo">
 	</div>
 	
@@ -20,15 +20,39 @@
           </span>
         </label>
 
-        <div class="trigger">
-		<a class="page-link" href="{{ site.baseurl }}/">News</a>
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-        </div>
+<div class="trigger">
+  {%- assign page_path = "next-event.md" -%}
+  {%- assign my_page = site.pages | where: "path", page_path | first -%}
+  {%- if my_page.title -%}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {%- endif -%}
+
+  {%- assign page_path = "program.md" -%}
+  {%- assign my_page = site.pages | where: "path", page_path | first -%}
+  {%- if my_page.title -%}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {%- endif -%}
+
+  {%- assign page_path = "past_events.md" -%}
+  {%- assign my_page = site.pages | where: "path", page_path | first -%}
+  {%- if my_page.title -%}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {%- endif -%}
+  
+  <a class="page-link" href="https://sympa.lix.polytechnique.fr/lists/subscribe/blocksem-annonces?previous_action=info">Subscribe</a> 
+  
+   {%- assign page_path = "about.md" -%}
+  {%- assign my_page = site.pages | where: "path", page_path | first -%}
+  {%- if my_page.title -%}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {%- endif -%} 
+  
+   {%- assign page_path = "contacts.md" -%}
+  {%- assign my_page = site.pages | where: "path", page_path | first -%}
+  {%- if my_page.title -%}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {%- endif -%} 
+		</div>
       </nav>
 	</div>  
     {%- endif -%}

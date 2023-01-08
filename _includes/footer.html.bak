@@ -17,8 +17,9 @@
       <div class="footer-col clearfix">
 		<div class="footer-logo">
 			<img src="{{ '/assets/images/Logo.png' | relative_url }}" alt="Logo"  width=100% height=auto class="logo">
+			 <p>{{ site.description | escape }}</p>
 		</div>
-        <p>{{ site.description | escape }}</p>
+       
       </div>
     </div>
 

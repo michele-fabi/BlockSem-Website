@@ -18,7 +18,7 @@ The website (in French) of the previous edition of BlockSem can be found <a href
 
 
  
- <h2> Organizers </h2>
+ <h2 style="margin: auto auto 20px auto;"> Organizers </h2>
  
  <div class="image-container">
   <figure>
@@ -45,17 +45,15 @@ The website (in French) of the previous edition of BlockSem can be found <a href
 </div>
 
 
-
+<h2> Collaborating Institutions </h2>
 
 
 
 <div class="sponsor-container">
-<h2> Collaborating Institutions </h2>
-  <img src="{{ '/assets/images/Blockchain_chair.png' | relative_url }}" alt="Logo 1">
-  <img src="{{ '/assets/images/CEA.png' | relative_url }}" alt="Logo 2">
-  <img src="{{ '/assets/images/CNRS.png' | relative_url }}" alt="Logo 3">
-  <img src="{{ '/assets/images/Dauphine.png' | relative_url }}" alt="Logo 1">
-  <img src="{{ '/assets/images/paris-2.png' | relative_url }}" alt="Logo 2">
-  <img src="{{ '/assets/images/liverpool.png' | relative_url }}" alt="Logo 3">
-  <!-- Add additional logos here -->
+  <img src="{{ '/assets/images/Blockchain_chair.png' | relative_url }}" alt="Blockchain Chair">
+  <img src="{{ '/assets/images/CEA.png' | relative_url }}" alt="CEA">
+  <img src="{{ '/assets/images/CNRS.png' | relative_url }}" alt="CNRS">
+  <img src="{{ '/assets/images/Dauphine.png' | relative_url }}" alt="Paris Dauphine">
+  <img src="{{ '/assets/images/paris-2.png' | relative_url }}" alt="Paris 2">
+  <img src="{{ '/assets/images/liverpool.png' | relative_url }}" alt="University of Liverpool">
 </div>

@@ -11,6 +11,6 @@ abstract: |
 
  We next set up a model for blockchain adoption by insurance firms in the presence of a reinsurer. We integrate the insurance specific contractual characteristics such as premiums and indemnities, and we account for the utility function of the parties. For exponential utility, we show that the problem reduces to a generic blockchain adoption problem, with modified cost structure, which is found in closed form depending on all the contractual characteristics and the risk aversion coefficients.
 
- When the reinsurance firm acts as a social planner, the co-insurance premiums are optimally chosen depending on the insurers’ adoption decision. This serves as a mechanism to select an outcome with higher adoption rate.aper: 
+ When the reinsurance firm acts as a social planner, the co-insurance premiums are optimally chosen depending on the insurers’ adoption decision. This serves as a mechanism to select an outcome with higher adoption rate. 
 paper: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3914284"
 ---

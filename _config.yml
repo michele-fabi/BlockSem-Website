@@ -7,6 +7,8 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 baseurl: "/"
 
+home: next-event.html
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -18,6 +20,7 @@ minima:
   # generate social links in footer
   social_links:
     - { platform: linkedin,       user_url: "https://www.linkedin.com/company/blockchain-chair-polytechnique/" }
+    - { platform: twitter,        user_url: "https://twitter.com/blockchain_at_X" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -25,13 +28,12 @@ minima:
 # - about.md
 
 header_pages:
-  - news.md
+  - next-event.md
   - program.md
   - past_events.md
   - subscribe.md
   - about.md
   - contacts.md
-
 
 # Build settings
 theme: minima
@@ -44,6 +46,8 @@ plugins:
 collections:
     interventions:
         output: true
+    home-interventions:
+        output: true        
         
 
 exclude:

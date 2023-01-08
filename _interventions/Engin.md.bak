@@ -5,7 +5,7 @@ presenter:
   name: "Engin Iyidogan "
   url: "https://www.linkedin.com/in/iyidogan/?originalSubdomain=fr"
   affiliation: "SKEMA Business School"
-  image: "/assets/images/engin.jpg"
+  image: "/assets/images/engin.jpg" 
 abstract: | 
  We consider blockchain adoption in a multiple firm market. The blockchain cost per firm decreases with the adoption rate as the cost of verification and recording is distributed among the adopters. We study the Nash equilibria of the adoption game and derive results on existence and uniqueness in terms of the cost structure. We characterize the gap between the social optimum and the Nash equilibrium for different blockchain cost structures, e.g. exponential, linear and quadratic.
 
