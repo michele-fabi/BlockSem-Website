@@ -17,7 +17,9 @@ permalink: /
   <div class="event-info">
   <p class="bigger-text">Date: January 25th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
-  <p class="bigger-text">Location: TBA</p>
+  <p class="bigger-text">Location: </p> 
+  <p>  LIP6, Sorbonne University (Pierre and Marie Curie Campus) - 4 place Jussieu (metro Jussieu), tower 26, first flour, hall 25-26, room 105.  </p> 
+  <p>  The room can be accessed either via tower 26 or via tower 25 (https://www.lip6.fr/informations/comment.php). </p>
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}
