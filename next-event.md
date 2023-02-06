@@ -15,11 +15,10 @@ permalink: /
 <div class="upcoming-event-page">
 
   <div class="event-info">
-  <p class="bigger-text">Date: January 25th 2023</p>
+  <p class="bigger-text">Date: February 15th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
   <p class="bigger-text">Location: </p> 
-  <p>  LIP6, Sorbonne University (Pierre and Marie Curie Campus) - 4 place Jussieu (metro Jussieu), tower 26, first flour, hall 25-26, room 105.  </p> 
-  <p>  The room can be accessed either via tower 26 or via tower 25. (Find a map <a href="https://www.lip6.fr/informations/comment.php">here</a>.) </p>
+  <p>  Location: <a href="https://www.u-paris2.fr/fr/recherche/centres-de-recherche/implantations/centre-de-recherche-en-economie-et-droit-cred"> CRED </a>, 21 Rue Valette, 75005 Paris.  </p> 
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}
@@ -35,7 +34,13 @@ permalink: /
       <div class="intervention">
 <div class="presenter-info-home">
   <div class="presenter-name-and-affiliation">
-    <h1 style="margin: 0;"><a href="{{ intervention.presenter.url }}">{{ intervention.presenter.name }}</a></h1>
+      <h1 style="margin: 0;">
+        {% if intervention.presenter.url %}
+          <a href="{{ intervention.presenter.url }}">{{ intervention.presenter.name }}</a>
+        {% else %}
+          {{ intervention.presenter.name }}
+        {% endif %}
+      </h1>
     <h3 style="margin: 0 auto 20px auto; padding: 0;">({{ intervention.presenter.affiliation }})</h3>
   </div>
   
