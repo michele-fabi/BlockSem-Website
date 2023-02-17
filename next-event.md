@@ -19,7 +19,7 @@ image: /assets/images/Logo-small.png
   <p class="bigger-text">Date: March 15th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
   <p class="bigger-text">Location: </p> 
-  <p> TBA  </p> 
+  <p>  <a href="https://www.cylex-locale.fr/entreprises/c-r-e-d-13477437.html">CRED</a>, 21 Rue Valette, 75005 Paris. </p> 
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}
