@@ -2,6 +2,7 @@
 layout: page
 title: Next Seminar
 permalink: /
+image: /assets/images/Logo-small.png
 ---
 
 <style>
