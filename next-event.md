@@ -15,10 +15,10 @@ permalink: /
 <div class="upcoming-event-page">
 
   <div class="event-info">
-  <p class="bigger-text">Date: March 15th 2023</p>
+  <p class="bigger-text">Date: April 5th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
-  <p class="bigger-text">Location: </p> 
-  <p> TBA  </p> 
+  <p class="bigger-text">Location: TBA  </p> 
+  <p> </p> 
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}

@@ -15,10 +15,10 @@ permalink: /
 <div class="upcoming-event-page">
 
   <div class="event-info">
-  <p class="bigger-text">Date: February 15th 2023</p>
+  <p class="bigger-text">Date: April 5th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
   <p class="bigger-text">Location: </p> 
-  <p>  Location: <a href="https://www.u-paris2.fr/fr/recherche/centres-de-recherche/implantations/centre-de-recherche-en-economie-et-droit-cred"> CRED </a>, 21 Rue Valette, 75005 Paris.  </p> 
+  <p> TBA  </p> 
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}
