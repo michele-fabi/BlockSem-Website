@@ -18,8 +18,7 @@ image: /assets/images/Logo-small.png
   <div class="event-info">
   <p class="bigger-text">Date: April 5th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
-  <p class="bigger-text">Location: TBA  </p> 
-  <p> </p> 
+  <p class="bigger-text">Location: 12 Place du Panthéon, Paris. Room 14, Gate A, Floor -1  </p>  
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}

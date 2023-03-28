@@ -18,13 +18,7 @@ image: /assets/images/Logo-small.png
   <div class="event-info">
   <p class="bigger-text">Date: April 5th 2023</p>
   <p class="bigger-text">Time: 2PM-4PM</p>
-<<<<<<< HEAD
-  <p class="bigger-text">Location: TBA  </p> 
-  <p> </p> 
-=======
-  <p class="bigger-text">Location: </p> 
-  <p>  <a href="https://www.cylex-locale.fr/entreprises/c-r-e-d-13477437.html">CRED</a>, 21 Rue Valette, 75005 Paris. </p> 
->>>>>>> 18185a9ff684814bda5c4ba393002d7830583a61
+  <p class="bigger-text">Location: Address: 12 Place du Panthéon, Paris. Room 14, Gate A, Floor -1  </p>  
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}
