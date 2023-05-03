@@ -1,6 +1,6 @@
 ---
 order: 2
-title: "Voter Coalitions and democracy in Decentralized Finance: Evidence from MakerDAO"
+title: "Voter Coalitions and Democracy in Decentralized Finance: Evidence from MakerDAO"
 date: 17-05-2023
 presenter:
   name: "Xiaotong Sun"

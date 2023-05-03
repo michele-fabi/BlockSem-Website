@@ -12,4 +12,5 @@ abstract: |
  I’ve been investigating whether strategies like sandwich attacks should be classified as illegal “market manipulation” (in the U.S.) or “market abuse” (in the EU). While doing so, I realised that to answer such questions, we cannot simply rely on legal precedents or detailed written rules, but we need to look deeper into the economics of DeFi. 
  
  I would like to use this presentation as an invitation to economists and computer scientists to study some of the questions crucial to deciding how the law should approach MEV. Those questions include both individual-level considerations, e.g. what is the economic nature of a transaction with an Automated Market Maker / CFMM (including how should we conceptualise “slippage” settings). But they also include market efficiency (and more broadly: social welfare) considerations, e.g. whether MEV extraction - even if harmful to some individual market participants - is all-things-considered a net benefit to the market.
+slides: "https://drive.google.com/file/d/1dFoUnO2oLnHFmrcxY6C9Du5wyJ6h5p1n/view?usp=share_link"
 ---

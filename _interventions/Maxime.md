@@ -1,5 +1,5 @@
 ---
-title: "Solving the Verifier's dilemma in quorum-based blockchain consensus: A BAS-robust equilibrium analysis"
+title: "Solving the Verifier's Dilemma in Quorum-Based Blockchain Consensus: A BAS-robust Equilibrium Analysis"
 date: 15-02-2023
 presenter:
   name: "Maxime Reynouard"

@@ -1,5 +1,5 @@
 ---
-title: From theory to practice, from the PCP theorem to proofs in blockchains 
+title: From Theory to Practice, from the PCP Theorem to Proofs in Blockchains 
 date: 16-12-2022
 presenter:
   name: "Daniel Augot"
