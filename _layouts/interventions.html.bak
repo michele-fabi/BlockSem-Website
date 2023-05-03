@@ -8,9 +8,6 @@
       {% if intervention.slides %}
         <a href="{{ intervention.slides }}" class="intervention-link">Slides</a>
       {% endif %}
-      {% if intervention.resources %}
-        <a href="{{ intervention.resources }}" class="intervention-link">Resources</a>
-      {% endif %}
       {% if intervention.paper %}
         <a href="{{ intervention.paper }}" class="intervention-link">Paper</a>
       {% endif %}
