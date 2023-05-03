@@ -1,6 +1,6 @@
 ---
 order: 2
-title: "Machine Learning and Generative Networks for improving Entity behavioural analysis in the crypto ecosystem"
+title: "Machine Learning and Generative Networks for Improving Entity Behavioural Analysis in the Crypto Ecosystem"
 date: 15-03-2023
 presenter:
   name: "Francesco Zola"
