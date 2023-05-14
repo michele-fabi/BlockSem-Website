@@ -1,5 +1,5 @@
 ---
-title: "MEV on Decentralised Crypto Exchanges: is there Illegal Market Manipulation?
+title: "MEV on Decentralised Crypto Exchanges: is there Illegal Market Manipulation?"
 date: 10-11-2022
 presenter:
   name: "Mikolaj Barczentewicz"
