@@ -21,17 +21,13 @@
         </label>
 
 <div class="trigger">
-  {%- assign page_path = "next-event.md" -%}
-  {%- assign my_page = site.pages | where: "path", page_path | first -%}
-  {%- if my_page.title -%}
-  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-  {%- endif -%}
 
-  {%- assign page_path = "program.md" -%}
+   {%- assign page_path = "about.md" -%}
   {%- assign my_page = site.pages | where: "path", page_path | first -%}
   {%- if my_page.title -%}
   <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-  {%- endif -%}
+  {%- endif -%} 
+
 
   {%- assign page_path = "past_events.md" -%}
   {%- assign my_page = site.pages | where: "path", page_path | first -%}
@@ -41,18 +37,15 @@
   
   <a class="page-link" href="https://sympa.lix.polytechnique.fr/lists/subscribe/blocksem-annonces?previous_action=info">Subscribe</a> 
   
-   {%- assign page_path = "about.md" -%}
-  {%- assign my_page = site.pages | where: "path", page_path | first -%}
-  {%- if my_page.title -%}
-  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-  {%- endif -%} 
   
    {%- assign page_path = "contacts.md" -%}
   {%- assign my_page = site.pages | where: "path", page_path | first -%}
   {%- if my_page.title -%}
   <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
   {%- endif -%} 
-		</div>
+  
+  
+  		</div>
       </nav>
 	</div>  
     {%- endif -%}

@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Next Seminar
-permalink: /
-image: /assets/images/Logo-small.png
+permalink: /next
 ---
 
 <style>
@@ -16,10 +15,7 @@ image: /assets/images/Logo-small.png
 <div class="upcoming-event-page">
 
   <div class="event-info">
-  <p class="bigger-text">Date: May 17th 2023</p>
-  <p class="bigger-text">Time: 2PM-4PM</p>
-  <p class="bigger-text">Location: Césure (Paris I University Campus), 13 rue Santeuil,
-75005, Paris. Room 375 3rd Floor  </p>  
+  <p class="bigger-text"> Blocksem is looking for presenters for the academic year 2023/2024. If you are interested at presenting, please contact us.  </p>  
   </div>  
 
   {% assign sorted_interventions = site.home-interventions | sort: 'order' %}

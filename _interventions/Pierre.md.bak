@@ -1,6 +1,6 @@
 ---
 order: 1
-title: "Stochastic models for blockchain analysis"
+title: "Stochastic Models for Blockchain Analysis"
 date: 17-05-2023
 presenter:
   name: "Pierre-Olivier Goffard"

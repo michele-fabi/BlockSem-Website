@@ -61,15 +61,15 @@ The website (in French) of the previous edition of BlockSem can be found <a href
 
 <div class="sponsor-container">
 
-<div class="sponsor-container-block-1">
+<div class="sponsor-container-block">
   <img src="{{ '/assets/images/Blockchain_chair.png' | relative_url }}" alt="Blockchain Chair">
   <img src="{{ '/assets/images/CEA.png' | relative_url }}" alt="CEA">
 </div>  
-<div class="sponsor-container-block-2">
+<div class="sponsor-container-block">
   <img src="{{ '/assets/images/CNRS.png' | relative_url }}" alt="CNRS">  
   <img src="{{ '/assets/images/Dauphine.png' | relative_url }}" alt="Paris Dauphine">
 </div>  
-<div class="sponsor-container-block-3">
+<div class="sponsor-container-block">
   <img src="{{ '/assets/images/paris-2.png' | relative_url }}" alt="Paris 2">
   <img src="{{ '/assets/images/liverpool.png' | relative_url }}" alt="University of Liverpool">
   </div>  

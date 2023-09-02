@@ -10,4 +10,5 @@ presenter:
 abstract: |
  My talk discusses simple models to study the consensus protocols at the heart of blockchain systems. An overview of blockchain and consensus algorithms is provided before examining simple models for evaluating the efficiency, security, and decentralization of blockchain systems based on two famous protocols, namely proof-of-work and proof of stake. 
 resources: "https://pierre-olivier.goffard.me/BLOCKASTICS/" 
+slides: "https://drive.google.com/file/d/10ObXj_j6GsosDCq165JEV1mvSYHLBnel/view?usp=sharing"
 ---

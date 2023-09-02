@@ -1,13 +1,15 @@
 title: BlockSem
 author:
   name: Michele Fabi 
-  email: michele.fabi@ensa.fr
+  email: michele.fabi@ensae.fr
 description: > # this means to ignore newlines until "show_excerpts:"
   Interdisciplinary seminar on blockchain technologies.
 
+
 baseurl: "/"
 
-home: next-event.html
+home: about.html
+
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -28,11 +30,9 @@ minima:
 # - about.md
 
 header_pages:
-  - next-event.md
-  - program.md
+  - about.md
   - past_events.md
   - subscribe.md
-  - about.md
   - contacts.md
 
 # Build settings
